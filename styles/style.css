@@ -1,24 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cantarell&display=swap');
+body{
+	background-color: #ffffff;
+	font-family: 'Cantarell', 'Arial', sans-serif;
+	font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
 #content{
+	background-color: #ffffff;
 	max-width: 1600px;
 	margin: 0 auto;
 }
 h1, h3, h5, h6{
+	color: #1a4121;
 	padding: 10px;
 	text-align: center;
 	font-family: 'Bubblegum Sans', 'Rockwell', serif;
 }
 h2{
+	color: #1a4121;
 	padding: 10px;
 	text-align: center;
 	font-family: 'Bubblegum Sans', 'Rockwell', serif;
 	margin: 0;
 }
 h4{
-	color: #6c8474;
+	color: #1a4121;
 	padding: 10px;
 	text-align: center;
 	font-family: 'Bubblegum Sans', 'Rockwell', serif;
+}
+p{
+	padding: 10px;
+	background-color: #d3ac64;
 }
 nav {
 	background-color: #d3ac64;
@@ -28,42 +42,90 @@ nav a{
 	text-align: center;
 	color: #396E94;
 	text-decoration: none;
-	padding: 35px;
+	padding: 0.5em 0.75em;
+	text-align: center;
 }
 nav a:hover{
 	background-color: #396E94;
 	color: #bbb89a;
 }
-nav li {
-	font-family: serif;
-	font-size: 1em;
-	display: inline;
+.logo{
+	width: 200px;
+	position: relative;
 }
-nav ul {
-	list-style: none;
-	margin: 0;
+header{
+	background-color: #1a4121;
+}
+img{
+	max-width: 100%;
+}
+main section{
+	text-align: center;
 }
 main section img{
 	box-sizing: border-box;
 }
-.logo{
-	width: 200px;
-}
-#logo_link{
-	padding-top: 5px;
-}
-.card-img{
-	max-width: 100%;
-	border: 10px solid #1a4121;
-}
-.rivers-card, .camping-card, .rapids-card  {
-	margin: 200px 0;
-}
-.mountains{
-	max-width: 100%;
+.home-title{
+	color: #1a4121;
+	font-size: 2em;
+	margin-top: 10px;
 }
 #hero-img{
 	width: 100%;
+}
+.book, .join{
+	background-color: #d3ac64;
+	color: #396E94;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 15px 30px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.book:hover, .join:hover{
+	background-color: #396E94;
+	color: #bbb89a;
+}
+.button-box{
+	text-align: center;
+	margin: 55px;
+}
+.card-img{
+	/* max-width: 100%; */
+	width: 400px;
+	height: 300px;
+	border: 10px solid #1a4121;
+}
+.icon{
+	width: 80px;
+	padding-top: 10px;
+}
+#background{
+	height: 725px;
+	background-color: #1a4121;
+}
+.mountains{
+	/* max-width: 100%; */
+	width: 100%
+}
+.msg{
+	background-color: #d3ac64;
+	line-height: 1.5em;
+	padding: 35px;
+}
+.msg h2{
+	color: #1a4121;
+	padding: 10px;
+	text-align: center;
+}
+.msg p{
+	color: #222222;
+	font-size: 0.8em;
+	padding-bottom: 15px;
+}
+#info{
+	color: #d3ac64;
+	font-size: 0.5em;
 }
 footer{
 	background-color: #d3ac64;
@@ -84,77 +146,9 @@ footer a{
 footer a:hover{
 	color: #6c8474;
 }
-.info{
-	font-size: 0.5em;
-}
 .social{
 	padding: 10px;
 }
 footer .social img{
 	padding-top: 15px;
-}
-.icon{
-	width: 45px;
-	padding-top: 10px;
-}
-main section{
-	text-align: center;
-}
-#background{
-	height: 725px;
-	background-color: #1a4121;
-}
-body{
-	background-color: #ffffff;
-	font-family: 'Cantarell', 'Arial', sans-serif;
-	font-size: 22px;
-    margin: 0;
-    padding: 0;
-}
-header{
-	background-color: #1a4121;
-}
-.home-title{
-	color: #1a4121;
-	font-size: 2em;
-	margin-top: 10px;
-}
-#hero-msg h1{
-	text-align: center;
-	padding: 10px;
-}
-#hero-msg h4{
-	text-align: center;
-	padding: 10px;
-}
-.msg{
-	background-color: #d3ac64;
-	line-height: 1.5em;
-	padding: 35px;
-}
-.msg p{
-	color: #000000;
-	font-size: 0.8em;
-	padding-bottom: 15px;
-}
-.msg h2{
-	color: #1a4121;
-	padding: 10px;
-	text-align: center;
-}
-.book, .join{
-	background-color: #d3ac64;
-	color: #396E94;
-	text-decoration: none;
-	font-size: 18px;
-	padding: 15px 30px;
-	margin-top: 50px;
-	border-radius: 5px;
-}
-.book:hover, .join:hover{
-	background-color: #396E94;
-	color: #bbb89a;
-}
-.button-box{
-	text-align: center;
 }

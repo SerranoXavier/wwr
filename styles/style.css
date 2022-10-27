@@ -218,7 +218,14 @@ footer a:hover{
 	padding: 10px;
 }
 footer .social img{
-	padding-top: 15px;
+	/* padding-top: 15px; */
+	opacity: 0.95;
+	transition: transform .5s;
+	border-radius: 5px;
+}
+footer .social img:hover {
+	opacity: 1;
+	transform: scale(1.1);
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

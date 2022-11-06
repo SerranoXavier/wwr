@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cantarell&display=swap');
 body{
 	background-color: #ffffff;
-	font-family: 'Cantarell', 'Arial', sans-serif;
-	font-size: 22px;
     margin: 0;
     padding: 0;
 }
@@ -11,28 +9,18 @@ body{
 	max-width: 1600px;
 	margin: 0 auto;
 }
-h1, h3, h5, h6{
-	color: #1a4121;
-	padding: 10px;
-	text-align: center;
-	font-family: 'Bubblegum Sans', 'Rockwell', serif;
-}
-h2{
+h1, h3, h2, h4, h5, h6{
 	color: #1a4121;
 	padding: 10px;
 	text-align: center;
 	font-family: 'Bubblegum Sans', 'Rockwell', serif;
 	margin: 0;
 }
-h4{
-	color: #1a4121;
-	padding: 10px;
-	text-align: center;
-	font-family: 'Bubblegum Sans', 'Rockwell', serif;
-}
 p{
 	padding: 10px;
 	background-color: #d3ac64;
+	font-family: 'Cantarell', 'Arial', sans-serif;
+	font-size: 22px;
 }
 nav {
 	background-color: #d3ac64cc;
@@ -43,10 +31,10 @@ nav {
 }
 nav a{
 	text-align: center;
+	margin: auto;
 	color: #396E94;
 	text-decoration: none;
 	padding: 0.5em 0.75em;
-	text-align: center;
 	font-weight: bold;
 }
 nav a:hover{
@@ -69,6 +57,8 @@ header{
 	background-color: #1a4121;
     display: grid;
     grid-template-columns: 300px auto;
+	font-family: 'Cantarell', 'Arial', sans-serif;
+	font-size: 22px;
 }
 img{
 	max-width: 100%;
@@ -123,6 +113,7 @@ main section img{
 #background{
 	grid-column: 1/11;
     grid-row: 4/9;
+	height: auto;
 }
 .mountains{
 	grid-column: 2/7;
@@ -131,12 +122,18 @@ main section img{
 .msg{
 	grid-column: 6/10;
     grid-row: 6/7;
+	padding: 55px;
+	text-align: center;
+	font-family: 'Cantarell', 'Arial', sans-serif;
+	font-size: 22px;
 }
 .book, .join{
 	background-color: #d3ac64;
 	color: #396E94;
 	text-decoration: none;
+	font-family: 'Cantarell', 'Arial', sans-serif;
 	font-size: 18px;
+	font-weight: bold;
 	padding: 15px 30px;
 	margin-top: 50px;
 	border-radius: 5px;
@@ -189,14 +186,14 @@ main section img{
 	padding-bottom: 15px;
 }
 #info{
-	color: #d3ac64;
-	font-size: 0.5em;
+	color: #396E94;
+	font-size: 0.75em;
 }
 footer{
 	background-color: #d3ac64;
 	color: #000000;
 	padding: 25px 50px;
-	margin-top: 200px;
+	margin-top: 0px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;

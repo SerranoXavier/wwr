@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cantarell&display=swap');
+/* home page */
 body{
 	background-color: #ffffff;
     margin: 0;
@@ -224,6 +225,136 @@ footer .social img:hover {
 	opacity: 1;
 	transform: scale(1.1);
 }
+/* blog page */
+#title-blog {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+	margin-top: -100px;
+}
+#title-blog-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+#title-blog-img{
+	width: 100%;
+}
+#title-blog-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+	margin-top: 100px;
+}
+.blog-title{
+	color: #1a4121;
+	font-size: 2em;
+	margin-top: 10px;
+}
+#title-blog-msg h4{
+    color: #d3ac64;
+}
+.blog-grid{
+	display: grid;
+	align-items: center;
+	margin: 0px 25px 25px 25px;
+}
+.blog-preview{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	align-items: center;
+	margin: 50px;
+}
+.blog-article-text{
+	background-color: white;
+}
+.blog-img-impair{
+	width: 300px;
+	grid-column: 1/2;
+	grid-row: 1/4;
+}
+.blog-article-impair{
+	grid-column: 2/4;
+	grid-row: 1/4;
+}
+.blog-img-pair{
+	width: 300px;
+	grid-column: 3/4;
+	grid-row: 1/4;
+}
+.blog-article-pair{
+	grid-column: 1/3;
+	grid-row: 1/4;
+}
+.blog-article-title{
+	text-decoration: none;
+	color: #1a4121;
+}
+.blog-article-title:hover{
+	text-decoration: underline;
+	color: #396E94;
+}
+.read-more{
+	font-family: 'Cantarell', 'Arial', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+.read-more:hover{
+	text-decoration: underline;
+	color: #396E94;
+}
+/* articles */
+.article-title{
+	grid-column: 1/3;
+	grid-row: 1/2;
+}
+.one{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+.two{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.three{
+	grid-column: 1/2;
+	grid-row: 3/4;
+}
+.four{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.five{
+	grid-column: 1/2;
+	grid-row: 4/5;
+}
+.six{
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+.one p, .two p, .three p, .four p, .five p, .six p{
+	background-color: white;
+}
+.back-to-blog{
+	background-color: #d3ac64;
+	color: #396E94;
+	text-decoration: none;
+	font-family: 'Cantarell', 'Arial', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 30px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.back-to-blog:hover{
+	background-color: #396E94;
+	color: #bbb89a;
+}
+.button-box-blog{
+	text-align: center;
+	margin: 55px;
+	grid-column: 1/3;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
